@@ -1,5 +1,5 @@
 import React from "react";
-import PDFItem from "./PDFItem";
+import PDFItem from "./PdfItem";
 import "./css/PdfList.css";
 
 const PDFList = ({ pdfs, onSelect }) => (
