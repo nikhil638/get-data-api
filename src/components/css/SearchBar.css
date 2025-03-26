@@ -1,0 +1,33 @@
+.search-bar-container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  width: 100%;
+  margin: 20px 0;          
+}
+
+.search-bar {
+  width: 50%;              
+  max-width: 600px;        
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  text-align: center;      
+}
+
+.search-bar:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+}
+
+
+@media (max-width: 768px) {
+  .search-bar {
+    width: 80%;
+    font-size: 16px;
+    padding: 12px;
+  }
+}

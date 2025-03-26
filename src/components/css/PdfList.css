@@ -1,0 +1,79 @@
+.pdf-item {
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .pdf-item:hover {
+    background: #f1f1f1;
+    transform: scale(1.03);
+  }
+  
+  .pdf-item h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .section h2 {
+    color: #ffffff;
+}
+  .section p {
+    color: #ffffff;
+}
+.all-data div {
+  background: lightsalmon;
+  margin-bottom: 20px;
+  padding: 2px 0 2px 5px;
+  border-radius: 10px;
+}
+  .pdf-item p {
+    color: #555;
+  }
+  .section .row {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.all-data {
+  background: rgba(255, 160, 122, 0.5);
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 70vh; 
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+
+.all-data::-webkit-scrollbar {
+  width: 8px;
+  display: none; 
+}
+
+.all-data::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+.all-data div {
+  background: lightgreen;
+  
+}
+
+.all-data::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.all-data::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+ 
+  @media (max-width: 768px) {
+    .pdf-list {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
