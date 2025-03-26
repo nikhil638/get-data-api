@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import SearchBar from "./components/SearchBar";
-import PDFList from "./components/PDFList";
-import PDFReader from "./components/PDFReader"; 
+import PDFList from "./components/PdfList";
+import PDFReader from "./components/PdfReader"; 
 
 const API_URL = "https://api.npoint.io/dee51ea017d20efdfcc8";
 
